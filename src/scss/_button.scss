@@ -1,0 +1,14 @@
+.btn {
+    border: none;
+    color: $white;
+    background-color: $dark-slate-grey;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    &:hover {
+        background: $tomato;
+        background: linear-gradient(90deg, $tomato-dark 0%, $tomato 100%);
+        box-shadow: 0 10px 20px $tomato-50;
+    }
+}
