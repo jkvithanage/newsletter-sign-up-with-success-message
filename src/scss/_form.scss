@@ -1,28 +1,47 @@
 .form {
     margin-top: 2rem;
+}
 
-    label {
+.input-email {
+    padding: 2rem;
+    width: 100%;
+    border-radius: 0.8rem;
+    color: $dark-slate-grey;
+    margin-top: 0.5rem;
+    outline: none;
+    border: 1.5px solid $grey;
+
+    &::placeholder {
+        color: $grey;
+        opacity: 0.8;
+    }
+
+    &:focus {
+        border-color: $dark-slate-grey;
+    }
+}
+
+.input-details {
+    display: flex;
+    justify-content: space-between;
+    label,
+    p {
         font-weight: 700;
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin-bottom: 1rem;
     }
 
-    .input-email {
-        padding: 2rem;
-        width: 100%;
-        border-radius: 0.8rem;
-        color: $dark-slate-grey;
-        margin-top: 0.5rem;
-        outline: none;
-        border: 1.5px solid $grey;
+    p {
+        color: $tomato;
+    }
+}
 
-        &::placeholder {
-            color: $grey;
-            opacity: 0.8;
-        }
+.input-error {
+    color: $tomato;
+    background-color: $tomato-20;
+    border-color: $tomato;
 
-        &:focus {
-            border-color: $dark-slate-grey;
-        }
+    &:focus {
+        border-color: inherit;
     }
 }
