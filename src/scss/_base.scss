@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto";
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.attribution {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+
+    a {
+        text-decoration: none;
+        color: $tomato;
+    }
+}
